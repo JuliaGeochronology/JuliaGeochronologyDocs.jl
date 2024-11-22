@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2024 Jarred C Lloyd (https://github.com/jarredclloyd) and the JuliaGeochronology contributors
+# SPDX-License-Identifier: MIT
+
+name = "JuliaGeochronologyDocs"
+uuid = "3caca477-44a4-43ba-99cb-da1ae4e918db"
+authors = ["Jarred C Lloyd (https://github.com/jarredclloyd) and contributors"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
